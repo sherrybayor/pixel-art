@@ -1,0 +1,49 @@
+#art{
+    display: table;
+    border-spacing: 1px;
+    background-color: black;
+    border: 5px solid black;
+    
+    
+}
+#text{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: glowBright;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+#Arts{
+    left: 70px;
+}
+.row{
+    display: table-row;
+}
+.pixel{
+    display: table-cell;
+    background-color: wheat;
+    width: 40px;
+    height: 40px;
+}
+.pen{
+    display: inline-block;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+
+}
+@keyframes glowBright {
+    0% {
+        color: blue;
+    }
+    50% {
+        color: blueviolet;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: palevioletred;
+    }
+} 
+
